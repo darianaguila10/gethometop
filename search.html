@@ -1,0 +1,383 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>GetHomeTop</title>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta content="" name="descriptison">
+    <meta content="" name="keywords">
+
+    <!-- Favicons -->
+    <link href="favicon.png" rel="icon">
+
+    <!-- Load fonts-->
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,700italic' rel='stylesheet' type='text/css'>
+
+    <!-- Load icons -->
+    <link href='css/font-awesome.min.css' rel='stylesheet' type='text/css'>
+
+    <!-- Load css -->
+    <link rel="stylesheet" href="css/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate/animate.min.css">
+    <link rel="stylesheet" href="css/magnific-popup/magnific-popup.css">
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body class="internal-page">
+
+    <section class="welcome" id="welcome">
+        <header class="header" role="banner" id="header">
+            <nav id="main-menu" class="navbar navbar-expand-lg navbar-dark change-menu">
+                <a class="navbar-brand change-menu" href="index.html">GetHomeTop</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto ">
+                        <li class="nav-item">
+                            <a data-scroll class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a data-scroll class="nav-link" href="search.html">Search</a>
+                        </li>
+                        <li class="nav-item">
+                            <a data-scroll class="nav-link" href="add-estate.html">Add estate</a>
+                        </li>
+                        <li class="nav-item">
+                            <a data-scroll class="nav-link" href="view-state.html">View estate</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a data-scroll class="nav-link" href="about-us.html">About us</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a data-scroll class="nav-link" href="contac-us.html">Contact us</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+    </section>
+
+    <section class="breadcrumb py-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-left">
+                    <a href="index.html">Home</a> » Search
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="search py-4">
+        <h2 class="text-center mb-4">Search</h2>
+        <div class="container">
+            <div class="row">
+                <div class="browser col-12">
+                    <ul class="nav nav-tabs">
+
+                        <li class="nav-item">
+                            <a class="nav-link active" data-toggle="tab" href="#tab-1">
+                                <i class="fa fa-search"></i> basic
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link " data-toggle="tab" href="#tab-2">
+                                <i class="fa fa-search-plus"></i> advanced
+                            </a>
+                        </li>
+
+                    </ul>
+
+                    <div class="tab-content">
+                        <div class="tab-pane active wow zoomIn" id="tab-1">
+                            <form>
+                                <div class="input-group mb-3 wow zoomIn">
+                                    <input type="text" class="form-control form-search" placeholder="Key word" aria-label="" aria-describedby="">
+                                    <select class="custom-select category-select" id="category-select" aria-label="">
+                                        <option value="undefined">Category</option>
+                                        <option value="sale">Sale</option>
+                                        <option value="rent">Rent</option>
+                                        <option value="temporary">Temporary</option>
+                                     </select>
+                                     <select class="custom-select state-type-select" id="state-type-select" aria-label="">
+                                        <option value="undefined">State type</option>
+                                        <option value="home">Home</option>
+                                        <option value="land">Land</option>
+                                        <option value="department">Department</option>
+                                        <option value="hotel">Hotel</option>
+                                        <option value="office">Office</option>
+                                        <option value="building">Building</option>
+                                     </select>  
+                                    <div class="input-group-prepend">
+                                        <button  class="btn btn-primary" type="submit"><i class="fa fa-search"></i> Search</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="tab-pane wow zoomIn  mb-3" id="tab-2">
+                            <form class="needs-validation">
+                                <div class="form-row">
+                                    <div class="col-md-4 mb-3 px-3">
+                                        <label for="key-word">Key word</label>
+                                        <input type="text" class="form-control" placeholder="Key word" aria-label="" aria-describedby="">
+                                    </div>
+                                    <div class="col-md-4 mb-3 px-3">
+                                        <label for="category-select">Category</label>
+                                        <select class="custom-select category-select" id="category-select" aria-label="">
+                                            <option value="undefined">Category</option>
+                                            <option value="sale">Sale</option>
+                                            <option value="rent">Rent</option>
+                                            <option value="temporary">Temporary</option>
+                                         </select>
+                                    </div>
+                                    <div class="col-md-4 mb-3 px-3">
+                                        <label for="state-type-selec">State type</label>
+                                        <select class="custom-select state-type-select" id="state-type-select" aria-label="">
+                                            <option value="undefined">State type</option>
+                                            <option value="home">Home</option>
+                                            <option value="land">Land</option>
+                                            <option value="department">Department</option>
+                                            <option value="hotel">Hotel</option>
+                                            <option value="office">Office</option>
+                                            <option value="building">Building</option>
+                                         </select>  
+                                    </div>
+                                </div>
+                                <div class="form-row">
+                                    <div class="col-md-4 mb-3 px-3">
+                                        <label for="price">Price</label>
+                                        <input type="range" class="custom-range" id="price" oninput="outputUpdate(val)">
+                                        <div class="price-range">
+                                            <span id="value"></span>
+                                            <span class="max">100</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 col-md-2 mb-3 px-3">
+                                        <label for="bathroom-range">Bathroom(s)</label>
+                                        <input type="number" class="form-control" id="bathroom-range">
+
+                                    </div>
+                                    <div class="col-6 col-md-2 mb-3 px-3">
+                                        <label for="room">Room(s)</label>
+                                        <input type="number" class="form-control" id="room">
+                                    </div>
+                                    <div class="col-6 col-md-2 mb-3 px-3">
+                                        <label for="land">Land m<sup>2</sup></label>
+                                        <input type="number" class="form-control" id="land">
+                                    </div>
+                                    <div class="col-6 col-md-2 mb-3 px-3">
+                                        <label for="contain">Image & Video</label>
+                                        <div class="custom-control custom-switch">
+                                            <input type="checkbox" class="custom-control-input" id="image">
+                                            <label class="custom-control-label" for="image">Image</label>
+                                        </div>
+                                        <div class="custom-control custom-switch">
+                                            <input type="checkbox" class="custom-control-input" id="video">
+                                            <label class="custom-control-label" for="video">Video</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button class="btn btn-primary" type="submit"><i class="fa fa-search-plus"></i>  Search</button>
+                            </form>
+                        </div>
+                    </div>
+
+                </div>
+
+                <article class="col-12">
+                    <div class="card mb-4 wow fadeInLeft">
+                        <div class="row no-gutters">
+                            <div class="col-lg-4">
+                                <div id="carousel0" class="carousel slide carousel-fade" data-ride="carousel0">
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#carousel0" data-slide-to="0" class="active"></li>
+                                        <li data-target="#carousel0" data-slide-to="1"></li>
+                                        <li data-target="#carousel0" data-slide-to="2"></li>
+                                    </ol>
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active" style="background-image: url(images/im1.jpeg);">
+                                        </div>
+                                        <div class="carousel-item" style="background-image: url(images/im2.jpeg);">
+                                        </div>
+                                        <div class="carousel-item" style="background-image: url(images/im3.jpeg);">
+                                        </div>
+                                    </div>
+                                    <a class="carousel-control-prev" href="#carousel0" role="button" data-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#carousel0" role="button" data-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-lg-8">
+                                <div class="card-body">
+                                    <div class="card-head">
+                                        <h5 class="card-title">Card title </h5>
+                                        <small class="posted-on">Posted on 14 octubre, 2020</small>
+                                    </div>
+                                    <div class="header-description">
+                                        <span class="price">12000$</span>
+                                        <span class="icon">
+                                              <i class="fa fa-video-camera "></i>
+                                              <i class="fa fa-camera"></i>
+                                          </span>
+                                    </div>
+                                    <small class="text-muted"><i class="fa fa-map-marker"></i> Lorem, ipsum</small>
+                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda deserunt corrupti commodi itaque ad! Dolores suscipit nisi illo amet omnis, accusamus nulla id cumque, voluptatibus nam, harum quasi magni ut.</p>
+                                    <p class="card-f card-text"><small class="text-muted"> 180m <sup>2</sup> - 3 Rec- 250m<sup>2</sup> construidos</small> <a class="btn btn-primary" href="view-state.html">See details</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="col-12">
+                    <div class="card mb-4 wow fadeInRight">
+                        <div class="row no-gutters">
+                            <div class="col-lg-4">
+                                <div id="carousel1" class="carousel slide carousel-fade" data-ride="carousel1">
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#carousel1" data-slide-to="0" class="active"></li>
+                                        <li data-target="#carousel1" data-slide-to="1"></li>
+                                        <li data-target="#carousel1" data-slide-to="2"></li>
+                                    </ol>
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active" style="background-image: url(images/im1.jpeg);">
+                                        </div>
+                                        <div class="carousel-item" style="background-image: url(images/im2.jpeg);">
+                                        </div>
+                                        <div class="carousel-item" style="background-image: url(images/im3.jpeg);">
+                                        </div>
+                                    </div>
+                                    <a class="carousel-control-prev" href="#carousel1" role="button" data-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#carousel1" role="button" data-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-lg-8">
+                                <div class="card-body">
+                                    <div class="card-head">
+                                        <h5 class="card-title">Card title </h5>
+                                        <small class="posted-on">Posted on 14 octubre, 2020</small>
+                                    </div>
+                                    <div class="header-description">
+                                        <span class="price">12000$</span>
+                                        <span class="icon">
+                                              <i class="fa fa-video-camera "></i>
+                                              <i class="fa fa-camera"></i>
+                                          </span>
+                                    </div>
+                                    <small class="text-muted"><i class="fa fa-map-marker"></i> Lorem, ipsum</small>
+                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda deserunt corrupti commodi itaque ad! Dolores suscipit nisi illo amet omnis, accusamus nulla id cumque, voluptatibus nam, harum quasi magni ut.</p>
+                                    <p class="card-f card-text"><small class="text-muted"> 180m <sup>2</sup> - 3 Rec- 250m<sup>2</sup> construidos</small> <a class="btn btn-primary" href="view-state.html">See details</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="col-12">
+                    <div class="card mb-4 wow fadeInLeft">
+                        <div class="row no-gutters">
+                            <div class="col-lg-4">
+                                <div id="carousel2" class="carousel slide carousel-fade" data-ride="carousel2">
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#carousel2" data-slide-to="0" class="active"></li>
+                                        <li data-target="#carousel2" data-slide-to="1"></li>
+                                        <li data-target="#carousel2" data-slide-to="2"></li>
+
+                                    </ol>
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active" style="background-image: url(images/im1.jpeg);">
+                                        </div>
+                                        <div class="carousel-item" style="background-image: url(images/im2.jpeg);">
+                                        </div>
+                                        <div class="carousel-item" style="background-image: url(images/im3.jpeg);">
+                                        </div>
+                                    </div>
+                                    <a class="carousel-control-prev" href="#carousel2" role="button" data-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#carousel2" role="button" data-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-lg-8">
+                                <div class="card-body">
+                                    <div class="card-head">
+                                        <h5 class="card-title">Card title </h5>
+                                        <small class="posted-on">Posted on 14 octubre, 2020</small>
+                                    </div>
+                                    <div class="header-description">
+                                        <span class="price">12000$</span>
+                                        <span class="icon">
+                                              <i class="fa fa-video-camera "></i>
+                                              <i class="fa fa-camera"></i>
+                                          </span>
+                                    </div>
+                                    <small class="text-muted"><i class="fa fa-map-marker"></i> Lorem, ipsum</small>
+                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda deserunt corrupti commodi itaque ad! Dolores suscipit nisi illo amet omnis, accusamus nulla id cumque, voluptatibus nam, harum quasi magni ut.</p>
+                                    <p class="card-f card-text"><small class="text-muted"> 180m <sup>2</sup> - 3 Rec- 250m<sup>2</sup> construidos</small> <a class="btn btn-primary" href="view-state.html">See details</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <nav aria-label="Page navigation example">
+        <ul class="pagination justify-content-center">
+            <li class="page-item disabled">
+                <a class="page-link" href="#" tabindex="-1" aria-disabled="true">&laquo;</a>
+            </li>
+            <li class="page-item active"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item">
+                <a class="page-link" href="#">&raquo;</a>
+            </li>
+        </ul>
+    </nav>
+    <a data-scroll class="go-up wow zoomIn" href="#welcome"><i class="fa fa-angle-up " aria-hidden="true "></i></a>
+
+    <footer class="footer py-4" role="contentinfo">
+        <div class="container">
+            <p>2020 © Copyright <strong>GetHomeTop</strong>. All Rights Reserved</p>
+            <div class="social-networks">
+                <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+                <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+                <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
+                <a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a>
+                <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Load JS -->
+    <script src="js/jquery/jquery.min.js "></script>
+    <script src="js/boostrap/js/bootstrap.min.js "></script>
+    <script src="js/wow.min.js "></script>
+    <script src="js/smooth-scroll.min.js "></script>
+    <script src="css/magnific-popup/magnific-popup.min.js "></script>
+    <script src="js/sitio.js "></script>
+
+
+</body>
+
+</html>
